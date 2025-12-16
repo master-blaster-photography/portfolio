@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Photography">
+    <meta name="keywords" content="HTML5,CSS,Bootstrap,JavaScript,Jquery">
+    <meta name="author" content="Katherine M. Gollena">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900&#038;subset=latin%2Clatin-ext'
+        type='text/css' media='all' />
+    <link rel='stylesheet' href='css/slick.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/slick-lightbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/owl.carousel.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/owl.theme.default.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/stylesheet.css' type='text/css' media='all' />
+    <!-- Font Awesome 5.15.1 CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <script src='js/jquery.js'></script>
+    <script src='js/jquery-migrate.min.js'></script>
+</head>
+
+<body class="home">
+    <div id="page" class="site">
+        <header id="masthead" class="site-header">
+            <div class="header-wrapper">
+                <div class="container main-header-container">
+                    <nav id="site-nav-tools" class="site-nav-tools">
+                        <button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"
+                            data-el="aria">
+                            <span class="screen-reader-text">Primary Menu</span>
+                            <!-- <span class="menu-icon"></span> -->
+                        </button>
+                    </nav>
+                    <nav id="site-navigation-left" class="main-navigation menu-desktop" data-el="aria">
+                        <ul id="primary-menu-left" class="nav primary-menu-left">
+                            <li class="menu-item"><a href="#hero">Home</a></li>
+                            <li class="menu-item"><a href="#subscribe-contact">About Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="site-branding">
+                        <div class="site-logo"><a href="index.html" class="custom-logo-link" rel="home"
+                                itemprop="url"><img width="1904" height="250" src="images/mastarblatarlogo.jpg"
+                                    class="custom-logo" alt="Capture Crew Photography" itemprop="logo" /></a></div>
+                        <p class="site-title screen-reader-text"><a href="index.html" rel="home">Capture Crew
+                                Photography</a></p>
+                        <p class="site-description screen-reader-text">Capture Crew Photography</p>
+                    </div>
+                    <nav id="site-navigation-right" class="main-navigation menu-desktop" data-el="aria">
+                        <ul id="primary-menu-right" class="nav primary-menu-right">
+                            <li class="menu-item"><a href="#chefs">Services</a></li>
+                            <!-- <li class="menu-item"><a href="#articles">Blog</a></li> -->
+                            <li class="menu-item"><a href="#subscribe-contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <nav id="site-navigation" class="main-navigation menu-mobile" data-el="aria">
+                        <ul id="mastmenu" class="nav primary-menu">
+                            <li class="menu-item"><a href="#hero">Home</a></li>
+                            <li class="menu-item"><a href="#subscribe-contact">About us</a></li>
+                            <li class="menu-item"><a href="#chefs">Services</a></li>
+                            <!-- <li class="menu-item"><a href="#articles">Blog</a></li> -->
+                            <li class="menu-item"><a href="#subscribe-contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header><!-- #masthead -->
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area front-page-content-area">
+                <main id="main" class="site-main">
+                    <section id="hero" class="section hero-section" data-scroll="frontpagesection">
+                        <div class="section-inner">
+                            <div class="section-banner">
+                                <div class="section-deco" style="background-image:url(images/hero.jpg);"></div>
+                                <div class="container">
+                                    <div class="section-body">
+                                        <div class="section-header">
+                                            <h2 class="h1 section-title">Welcome to Master Blaster Photography </h2>
+                                            <!-- <p class="section-subtitle">Interact and get the chance to be featured at this website. Friendship is the theme for today.</p> -->
+                                        </div>
+                                        <div class="section-actions">
+                                            <ul class="action-links">
+                                                <!-- <li><a class="hero-link btn" href="https://wa.me/919589982720"   target="_blank">contact now</a></li> -->
+                                                <a class="hero-link btn"
+                                                    href="https://wa.me/917509055522?text=Hello! I’m interested in your photography services (Wedding, Pre-Wedding, Cinematic, Baby Shoots, Dronography). Please share packages and more information."
+                                                    target="_blank">
+                                                    Contact Now
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section id="about" class="section about-section">
+                        <div class="container section-inner">
+                            <div class="section-content">
+                                <div class="row">
+                                    <div class="col-12 col-md-5">
+                                        <div class="about-image about-image-1">
+                                            <img src="images/about-1.jpg" title="Friends" alt="Friendship" />
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-7">
+                                        <h2 class="section-title">The Friendship</h2>
+                                        <div class="section-description">
+                                            <p>"Be the change you wish to see in the world." -Gandhi</p>
+                                            <p>A true friend inspires you to live up to your best potential, not to
+                                                indulge your basest drives. A commitment to your happiness. A true
+                                                friend is consistently willing to put your happiness before your
+                                                friendship. It's said that "good advice grates on the ear," but a true
+                                                friend won't refrain from telling you something you don't want to hear,
+                                                something that may even risk fracturing the friendship, if hearing it
+                                                lies in your best interest. A true friend will not lack the mercy to
+                                                correct you when you're wrong. A true friend will confront you with your
+                                                drinking problem as quickly as inform you about a malignant-looking skin
+                                                lesion on your back that you can't see yourself.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-5">
+                                        <div class="about-description">
+                                            <p>Time and distance do nothing to diminish the bond we have in the deepest
+                                                kinds of friendship.</p>
+                                            <p>"Two are better than one, because they have a good reward for their toil.
+                                                For if they fall, one will lift up his fellow. But woe to him who is
+                                                alone when he falls and has not another to lift him up! Again, if two
+                                                lie together, they keep warm, but how can one keep warm alone? And
+                                                though a man might prevail against one who is alone, two will withstand
+                                                him—a threefold cord is not quickly broken." -Ecclesiastes 4:9-12 </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-7">
+                                        <div class="about-image about-image-2">
+                                            <div class="image">
+                                                <img class="about-image-row-2-small" src="images/about-2-small.jpg"
+                                                    title="Friendship" alt="Friendship" />
+                                                <img class="about-image-row-2-small" src="images/about-2-big.jpg"
+                                                    title="Friendship" alt="Friendship" />
+                                            </div>
+                                            <div class="section-text-front">
+                                                <p class="text-front">Friends
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+                    <section id="chefs" class="section chefs-section">
+                        <div class="section-inner">
+                            <div class="container">
+                                <div class="section-header">
+                                    <h2 class="section-title">Our Services</h2>
+                                </div>
+                            </div>
+
+                            <div class="section-content section-content-chefs">
+                                <div class="chefs-grid owl-carousel owl-theme" data-post-num="5">
+                                    <div class="chef-grid-col item">
+                                        <article class="grid-hentry post-431 chefs type-chefs status-publish ">
+                                             <div class="post-thumbnail" style="height: 360px;">
+                                                <img src="images/wedding-photographers.webp" style="height: 360px;"/>
+                                            </div>
+                                            <div class="post-overlay-hiden">
+                                                <div class="post-overlay"></div>
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="content-chef">
+                                                    <div class="post-head">
+                                                        <h3 class="entry-title"><a href="#" rel="bookmark">Wedding Shoot</a></h3>
+                                                        <p style="opacity: 0;" class="sub-des">Pre-Wedding Shoot</p>
+                                                        <p style="opacity: 0;" class="sub-des">Pre-Wedding Shoot</p>
+                                                        <p class="sub-des">Wedding & Event Photography</p>
+                                                        <p class="sub-des">Pre-Wedding Shoot</p>
+                                                        <p class="sub-des">Cinematic Flim & Candid Photography</p>
+                                                        <p class="sub-des">Engagement Shoot (Ring Ceremony)</p>
+                                                        <p class="sub-des">Dronography </p>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="chef-grid-col item">
+                                        <article class="grid-hentry post-430 chefs type-chefs status-publish ">
+                                            <div class="post-thumbnail" style="height: 360px;">
+                                                <img src="images/birthdayshoot.jpg" style="height: 360px;"/>
+                                            </div>
+                                            <div class="post-overlay-hiden">
+                                                <div class="post-overlay"></div>
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="content-chef">
+                                                    <div class="post-head">
+                                                        <h3 class="entry-title"><a href="#" rel="bookmark">Birthday Shoot</a>
+                                                        </h3>
+                                                        <div class="post-head">
+                                                        <p style="opacity: 0;" class="sub-des">a</p>
+                                                        <p style="opacity: 0;" class="sub-des">a</p>
+                                                        <p class="sub-des">Family & Sibling Portraits</p>
+                                                        <p class="sub-des">Celebration Moments</p>
+                                                        <p class="sub-des">Baby Candid Moments</p>
+                                                        <p class="sub-des">Cake Cutting Ceremony</p>
+                                                        <p class="sub-des">Drone Shots (if allowed/open space)</p>
+                                                    </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="chef-grid-col item">
+                                        <article class="grid-hentry post-429 chefs type-chefs status-publish ">
+                                            <div class="post-thumbnail">
+                                                <img src="images/baby shower shoot.jpg" style="height: 360px;" />
+                                            </div>
+                                            <div class="post-overlay-hiden">
+                                                <div class="post-overlay"></div>
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="content-chef">
+                                                   <div class="post-head">
+                                                        <h3 class="entry-title"><a href="#" rel="bookmark">Baby Shower , Maternity Shoot </a>
+                                                        </h3>
+                                                        <div class="post-head">
+                                                        <p style="opacity: 0;" class="sub-des">a</p>
+                                                        <p class="sub-des">Blessings & Aashirwad Moments</p>
+                                                        <p class="sub-des">Close-up Expressions</p>
+                                                        <p class="sub-des">Mom & Dad-to-Be Couple Shoot</p>
+                                                        <p class="sub-des">Cinematic Highlight Video</p>
+                                                        <p class="sub-des">Guests Interaction Shots</p>
+                                                    </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </article>
+                                    </div>
+                                   
+                                </div>
+                                <div class="owl-theme">
+                                    <div class="owl-controls">
+                                        <div class="chefs-nav owl-nav"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="gallery" class="section gallery-section">
+                        <div class="section-content">
+                            <div class="container">
+                                  <div class="container">
+                                <div class="section-header">
+                                    <h2 class="section-title">Photos Gallery</h2>
+                                </div>
+                            </div>
+                                <div class="gallery-content">
+                                    <div class="gallery grid gallery-images gallery-images-c" data-el="popup-gallery">
+                                        <div class="grid-sizer"></div>
+                                        <div class="gallery-image grid-item "><a href="images1/1.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/1.jpg)"
+                                                data-fancybox="images"><img width="452" height="343"
+                                                    src="images1/1.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/2.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/2.jpg)"
+                                                data-fancybox="images"><img width="452" height="238"
+                                                    src="images1/2.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/3.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/3.jpg)"
+                                                data-fancybox="images"><img width="452" height="343"
+                                                    src="images1/3.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/4.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/4.jpg)"
+                                                data-fancybox="images"><img width="452" height="257"
+                                                    src="images1/4.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/5.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/5.jpg)"
+                                                data-fancybox="images"><img width="451" height="459"
+                                                    src="images1/5.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/6.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/6.jpg)"
+                                                data-fancybox="images"><img width="452" height="257"
+                                                    src="images1/6.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/7.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/7.jpg)"
+                                                data-fancybox="images"><img width="452" height="343"
+                                                    src="images1/7.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/8.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/8.jpg)"
+                                                data-fancybox="images"><img width="452" height="238"
+                                                    src="images1/8.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/birthdayshoot.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/birthdayshoot.jpg)"
+                                                data-fancybox="images"><img width="452" height="343"
+                                                    src="images1/birthdayshoot.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item-for-load-more" style="display: none;">
+                                        <div class="gallery-image grid-item "><a href="images1/10.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/10.jpg)"
+                                                data-fancybox="images"><img width="452" height="343"
+                                                    src="images1/10.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/11.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/11.jpg)"
+                                                data-fancybox="images"><img width="452" height="238"
+                                                    src="images1/11.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/12.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/12.jpg)"
+                                                data-fancybox="images"><img width="452" height="343"
+                                                    src="images1/12.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/13.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/13.jpg)"
+                                                data-fancybox="images"><img width="452" height="257"
+                                                    src="images1/13.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/14.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/14.jpg)"
+                                                data-fancybox="images"><img width="451" height="459"
+                                                    src="images1/14.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                        <div class="gallery-image grid-item "><a href="images1/15.jpg"
+                                                target="_blank" class="image-entry"
+                                                style="background-image:url(images1/15.jpg)"
+                                                data-fancybox="images"><img width="452" height="257"
+                                                    src="images1/15.jpg" class="attachment-full " alt="" /></a>
+                                        </div>
+                                     
+                                    </div>
+                                    <div class="gallery-action text-center">
+                                        <a href="" class="btn btn-loadmore" data-number-item="9" data-item-load="3">View
+                                            Photo gallery</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <style type="text/css">
+                            .grid-item,
+                            .grid-sizer {
+                                float: left;
+                                width: 31.4544189283%;
+                                margin: 0 0.9394572025% 2.01809324983%;
+                            }
+
+                            .grid-item a {
+                                display: block;
+                                background-size: cover;
+                            }
+
+                            .grid-item a img {
+                                opacity: 0;
+                                width: 100%;
+                            }
+                        </style>
+                        <script type="text/javascript">
+                            jQuery(document).ready(function () {
+                                var $grid = jQuery('.gallery.grid').masonry({
+                                    itemSelector: '.grid-item',
+                                    percentPosition: true,
+                                    columnWidth: '.grid-sizer',
+                                    horizontalOrder: true
+                                });
+
+
+                                // Loadmore gallery item
+                                var numberItemGet = parseInt(jQuery('.gallery-action .btn-loadmore').attr('data-item-load'));
+                                jQuery('.gallery-action .btn-loadmore').click(function () {
+                                    if (jQuery('.grid-item-for-load-more .gallery-image').length > 0) {
+
+                                        for (var i = 0; i < numberItemGet; i++) {
+                                            var $items = '';
+                                            $items = jQuery("'" + jQuery('.grid-item-for-load-more .gallery-image').eq(0)[0].outerHTML + "'");
+                                            $grid.append($items).masonry('appended', $items).masonry();
+                                            jQuery('.grid-item-for-load-more .gallery-image:nth-child(1)').remove();
+                                            if (jQuery('.grid-item-for-load-more .gallery-image').length < numberItemGet) {
+                                                jQuery(this).fadeOut();
+                                            }
+                                        }
+                                    }
+                                    return false;
+                                });
+                            });
+                        </script>
+                        <section id="present" class="section present-section">
+                            <div class="container section-inner">
+                                <div class="row">
+                                    <div class="section-left col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="section-image-big section-image">
+                                            <img src="images/present-big.jpg" title="present" alt="present" />
+                                            <p class="text-front">PRIVATE SHOOTS, PRE-NUPTIAL &amp; WEDDINGS</p>
+                                        </div>
+
+                                        <div class="section-image-small section-image">
+                                            <img src="images/present-small.jpg" title="Parties" alt="present" />
+                                            <p class="text-front">DEBUT PHOTO SHOOT</p>
+                                        </div>
+                                    </div>
+                                    <div class="section-right col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="section-header">
+                                            <h2 class="title">“Well Customized to fit the Specific Desires of Every
+                                                Occassion, with our PHOTO SHOOTS...”</h2>
+                                        </div>
+                                        <div class="section-content">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="sub-des present-description">
+                                                        <p>Master Blaster Photography believes that a photograph is more than an image—it is a moment preserved with honesty and emotion. Every frame is captured with deep respect for reality, embracing life as it unfolds, whether in joy, silence, or struggle. Our photography seeks not only to document what is seen, but to communicate what is felt, leaving a lasting impression on the viewer. Each photograph tells a truthful story, touches the heart, and invites reflection, because powerful images don’t just show the world—they change the way we see it.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+<!-- 
+                                            <div class="section-btn">
+                                                <a class="present-profile btn btn-orange" href="#subscribe-contact"
+                                                    target="_self">Learn More about Services</a>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <!-- <section id="articles" class="section articles-section">
+                        <div class="container section-inner">
+                            <div class="section-header">
+                                <h2 class="section-title">Read Recent Blog Articles</h2>
+                            </div>
+
+                            <div class="section-content">
+                                <div class="articles-grid articles-slider">
+                                    <div class="article-grid-col">
+                                        <article class="grid-hentry">
+                                            <div class="image-icon">
+                                                <div class="post-thumbnail">
+                                                    <a href="#" style="background-image: url(images/article-1.jpg)"><img
+                                                            width="500" height="750" src="images/article-1.jpg"
+                                                            alt="" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="post-header">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title"><a href="#" rel="bookmark">Women's white and
+                                                            brown floral long dress standing beside body of water during
+                                                            golden hour</a></h3>
+                                                </header>
+                                                <a class="btn post-button" href="#subscribe-contact">Visit</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="article-grid-col">
+                                        <article class="grid-hentry">
+                                            <div class="image-icon">
+                                                <div class="post-thumbnail">
+                                                    <a href="#" style="background-image: url(images/article-2.jpg)"><img
+                                                            width="500" height="750" src="images/article-2.jpg"
+                                                            alt="" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="post-header">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title"><a href="#" rel="bookmark">Woman in white
+                                                            dress walking on gray concrete stairs</a></h3>
+                                                </header>
+                                                <a class="btn post-button" href="#subscribe-contact">Visit</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="article-grid-col">
+                                        <article class="grid-hentry">
+                                            <div class="image-icon">
+                                                <div class="post-thumbnail">
+                                                    <a href="#" style="background-image: url(images/article-3.jpg)"><img
+                                                            width="500" height="750" src="images/article-3.jpg"
+                                                            alt="" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="post-header">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title"><a href="#" rel="bookmark">Woman wearing red
+                                                            and black long-sleeved shirt holding DSLR camera
+                                                        </a></h3>
+                                                </header>
+                                                <a class="btn post-button" href="#subscribe-contact">Visit</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="arrow-slider">
+                                    <ul>
+                                        <li class="articles-slider-prev prev"></li>
+                                        <li class="articles-slider-next next"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+                    <!-- <section id="testimonials" class="section testimonials-section">
+                        <div class="wide-container section-inner">
+                            <div class="container">
+                                <div class="section-left">
+                                    <div class="col-lg-6">
+                                        <div class="section-header section-header-style-default">
+                                            <h2 class="title">“We Make Our Clients Day happy and Very Special...”</h2>
+                                        </div>
+                                        <div class="testimonial-slider testimonial-entries">
+                                            <div class="testimonial-entry-col left-align">
+                                                <div class="testimonial-entry">
+                                                    <div class="entry-thumbnail">
+                                                        <div class="bkg-testimonial"><img width="113" height="112"
+                                                                src="images/testimonial-item1.jpg" alt="" /></div>
+                                                    </div>
+                                                    <div class="entry-body">
+                                                        <div class="entry-content sub-des">
+                                                            <p>“Really great sessions. He made it fun and the results
+                                                                are fab. Great photos - Rock the box, Back to school and
+                                                                Christmas shoot. Excellent photos. And the artwork in
+                                                                his studio is amazing.”</p>
+                                                        </div>
+                                                        <div class="entry-info">
+                                                            <h4 class="entry-title">Louise Beckham</h4>
+                                                            <p class="entry-location">Manila, Philippines</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-entry-col right-align">
+                                                <div class="testimonial-entry">
+                                                    <div class="entry-thumbnail">
+                                                        <div class="bkg-testimonial"><img width="113" height="112"
+                                                                src="images/testimonial-item2.jpg" alt="" /></div>
+                                                    </div>
+                                                    <div class="entry-body">
+                                                        <div class="entry-content sub-des">
+                                                            <p>“Highly professional set up, the photographer himself is
+                                                                so approachable and takes time to get the shots right.
+                                                                Really patient and when we asked for non-standard
+                                                                prints, he could not have been more accommodating.
+                                                                Photos are lovely, high standard print and order was
+                                                                completed.super quickly.
+                                                                Highly recommended.”</p>
+                                                        </div>
+                                                        <div class="entry-info">
+                                                            <h4 class="entry-title">Andrew Mathews</h4>
+                                                            <p class="entry-location">Manila, Philippines</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-right">
+                                <div class="image">
+                                    <img class="section-testimonial-big" src="images/testimonial-big.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+                    <section id="subscribe-contact" class="section subscribe-contact-section">
+                        <div class="container section-inner">
+                            <div class="row">
+                                <div class="section-left col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="image">
+                                        <img class="section-subscribe-img-big" src="images/subscribe-big.jpg" />
+                                        <img class="section-subscribe-img-small" src="images/subscribe-small.jpg" />
+                                        <div class="post-overlay-hiden">
+                                            <div class="post-overlay"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="section-right col-12 col-sm-12 col-md-12 col-lg-6">
+
+                                    <div class="subscribe-contact-infomation">
+                                        <div class="subscribe-content">
+                                            <!-- <div class="section-subscribe-header">
+                                                <h4 class="big">Subscribe to Newsletter</h4>
+                                            </div> -->
+                                            <div class="section-subscribe-content">
+                                                To subscribe, please send us an email. </div>
+                                            <div>
+                                                <form>
+                                                    <div>
+                                                        <div class="form-field">
+                                                            <input type="email" name="EMAIL"
+                                                                placeholder="Enter your email" required />
+                                                            <button type="submit">Subscribe</button>
+                                                        </div>
+                                                    </div>
+                                                    <label style="display: none !important;">Leave this field empty if
+                                                        you're human:
+                                                        <input type="text" name="" value="" tabindex="-1"
+                                                            autocomplete="off" />
+                                                    </label>
+                                                    <input type="hidden" name="" value="1587633688" /><input
+                                                        type="hidden" name="" value="24" />
+                                                    <input type="hidden" name="" value="" />
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="contact-content">
+                                            <div class="section-contact-header">
+                                                <h4 class="big">Contact for Information</h4>
+                                            </div>
+                                            <div class="contact-item">
+                                                <div class="contact-item-details">
+                                                    <p>1th Floor, Asian Towar,</p>
+                                                    <p>Chhoti Gwaltoli , Sarwate Bus Stand , Indore - 452001,</p>
+                                                    <p>Phone: <a href="tel:">95899-82720 , 7509055522</a></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="contact-item">
+                                                <div class="contact-item-details">
+                                                    <a href="mailto:http:" target="_blank">
+                                                        masterblasterp10@gmail.com </a>
+                                                    <span class="contact-item-flag"> / </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="contact-item-social">
+                                             <li>
+                                                <a   href="https://wa.me/917509055522?text=Hello! I’m interested in your photography services (Wedding, Pre-Wedding, Cinematic, Baby Shoots, Dronography). Please share packages and more information."
+                                                    target="_blank">
+                                                    <i class="fab fa-whatsapp"></i>
+                                                </a>
+                                                <span class="contact-item-flag"> / </span>
+                                            </li>
+                                               <li>
+                                                <a href="https://www.instagram.com/masterblaster_photography?igsh=a3oxOHFvYmI0eDZ5"
+                                                    target="_blank">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                                <span class="contact-item-flag"> / </span>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.facebook.com/share/1WUuciTybG/"
+                                                    target="_blank">
+                                                    <i class="fab fa-facebook-square"></i>
+                                                </a>
+                                                <span class="contact-item-flag"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            </section>
+            </main>
+        </div>
+        <footer id="colophon" class="site-footer text-center">
+            <div class="footer-bottom">
+                <div class="container wide-container footer-container">
+                    <div class="row">
+                        <div class="footer-right">
+                            <!-- <div class="footer-menu-container">
+                                <ul id="footer-menu" class="footer-menu">
+                                    <li><a href="#hero">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#gallery">View Gallery</a></li>
+                                    <li><a href="#testimonials">Client Testimonials</a></li>
+                                    <li><a href="#articles">Blog</a></li>
+                                    <li><a href="#subscribe-contact">Contact Us</a></li>
+                                </ul>
+                            </div> -->
+                            <div class="site-info">
+                                <p>(C) 2025. All Rights Reserved. Designed &amp; Developed by Master Blaster Photography
+                                    </>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var MinimalRestaurantLocalize = {
+            "isfront": "1",
+            "homeurl": "index.html"
+        };
+        /* ]]> */
+    </script>
+    <script src='js/script.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src='js/slick.min.js'></script>
+    <script src='js/slick-lightbox.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/customizer-previews.js'></script>
+</body>
+
+</html>
